@@ -1,6 +1,6 @@
 def my_hash_creator(key, value)
   # return a hash that includes
-  hash = { key: value }
+  hash = { key=> value }
 end
 
 def read_from_hash(hash, key)
